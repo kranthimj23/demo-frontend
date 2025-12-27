@@ -6,6 +6,38 @@ env:
     value: Demo Frontend
   - name: ENVIRONMENT
     value: dev
+  # Theme Configuration
+  - name: THEME_COLOR
+    value: "#3498db"
+  - name: THEME_NAME
+    value: Blue Theme (Dev)
+  - name: APP_VERSION
+    value: "1.0.0"
+  - name: BUILD_NUMBER
+    value: "1"
+  # Banner Configuration
+  - name: BANNER_ENABLED
+    value: "true"
+  - name: BANNER_TEXT
+    value: "Development Environment - Demo Application"
+  - name: BANNER_COLOR
+    value: "#2c3e50"
+  # Feature Flags
+  - name: FEATURE_USER_MANAGEMENT
+    value: "true"
+  - name: FEATURE_ITEM_CATALOG
+    value: "true"
+  - name: FEATURE_ANALYTICS
+    value: "false"
+  - name: FEATURE_DARK_MODE
+    value: "false"
+  - name: FEATURE_NOTIFICATIONS
+    value: "false"
+  # Footer Configuration
+  - name: FOOTER_TEXT
+    value: "Demo 3-Tier Application"
+  - name: COMPANY_NAME
+    value: "Demo Corp"
 image:
   imageName: us-central1-docker.pkg.dev/mobile-app-1-482109/demo-frontend/frontend:10-dev
   pullPolicy: IfNotPresent
