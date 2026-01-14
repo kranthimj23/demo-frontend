@@ -35,10 +35,10 @@ env:
   - name: COMPANY_NAME
     value: Demo Corp
 image:
-  imageName: asia-south1-docker.pkg.dev/cloudlearnhub-gke-1546/demo-frontend/frontend:4-dev
+  imageName: us-central1-docker.pkg.dev/cloudlearnhub-gke-1546/demo-frontend/frontend:12-dev
   pullPolicy: IfNotPresent
-  repository: asia-south1-docker.pkg.dev/cloudlearnhub-gke-1546/demo-frontend/frontend
-  tag: 4-dev
+  repository: us-central1-docker.pkg.dev/cloudlearnhub-gke-1546/demo-frontend/frontend
+  tag: 12-dev
 replicaCount: 1
 resources:
   limits:
