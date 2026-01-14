@@ -1,5 +1,7 @@
 env:
   demo_frontend:
+  - name: FirstName
+    value: Shantanu
   - name: BACKEND_URL
     value: http://demo-backend:8080
   - name: APP_NAME
