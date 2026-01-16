@@ -36,8 +36,10 @@ env:
     value: Demo 3-Tier Application
   - name: COMPANY_NAME
     value: Demo Corp
-  - name: Home
+  - name: HOME
     value: home
+  - name: HEADER
+    value: header
 image:
   imageName: asia-south1-docker.pkg.dev/cloudlearnhub-gke-1546/demo-frontend/frontend:3-dev
   pullPolicy: IfNotPresent
