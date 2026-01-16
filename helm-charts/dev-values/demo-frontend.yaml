@@ -34,8 +34,8 @@ env:
     value: Demo 3-Tier Application
   - name: COMPANY_NAME
     value: Demo Corp
-  - name: HOME
-    value: home
+  - name: MY_HOME
+    value: myhome
   - name: DEMO_NAME
     value: demo
 image:
