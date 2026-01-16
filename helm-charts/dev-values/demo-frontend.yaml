@@ -36,13 +36,15 @@ env:
     value: Demo 3-Tier Application
   - name: COMPANY_NAME
     value: Demo Corp
-  - name: Home
-    value: home
+  - name: MY_HOME
+    value: myhome
+  - name: DEMO_NAME
+    value: demo
 image:
-  imageName: asia-south1-docker.pkg.dev/cloudlearnhub-gke-1546/demo-frontend/frontend:3-dev
+  imageName: us-central1-docker.pkg.dev/cloudlearnhub-gke-1546/demo-frontend/frontend:12-dev
   pullPolicy: IfNotPresent
-  repository: asia-south1-docker.pkg.dev/cloudlearnhub-gke-1546/demo-frontend/frontend
-  tag: 3-dev
+  repository: us-central1-docker.pkg.dev/cloudlearnhub-gke-1546/demo-frontend/frontend
+  tag: 12-dev
 replicaCount: 1
 resources:
   limits:
